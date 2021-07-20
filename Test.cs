@@ -63,7 +63,8 @@ namespace System
                 return isEnabled;
             }
 
-            // if we could not find the switch name, we should return 'false'
+            // if we could not find the switch name,
+            //we should return 'false'
             // This will preserve the concept of switches been 'off' unless explicitly set to 'on'
             return false;
         }
