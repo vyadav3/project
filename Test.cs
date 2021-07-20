@@ -22,7 +22,8 @@ namespace System
 
         static LocalAppContext()
         {
-            // Try to setup the callback into the central AppContext
+            // Try to setup the callback 
+			//into the central AppContext
             s_canForwardCalls = SetupDelegate();
 
             // Populate the default values of the local app context 
