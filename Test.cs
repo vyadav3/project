@@ -26,7 +26,7 @@ namespace System
 			//into the central AppContext
             s_canForwardCalls = SetupDelegate();
 
-            // Populate the default values of the local app context 
+            // Populate the default values of the local app context  ss
             AppContextDefaultValues.PopulateDefaultValues();
 
             // Cache the value of the switch that help with testing
